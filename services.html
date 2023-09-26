@@ -2,30 +2,111 @@
 <html>
 <head>
 <style>
-body {
-  font-family: Arial, sans-serif;
-}
+ <style>
+        /* CSS code to style the website */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
+        h1 {
+            color: #333333;
+            text-align: center;
+        }
 
-h1 {
-  font-size: 2.5rem;
-}
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
 
-p {
-  font-size: 1.5rem;
-}
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .navbar a {
+            color: #333333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #666666;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        .content {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .sidebar h3 {
+            color: #333333;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar li a {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        .sidebar li a:hover {
+            color: #666666;
+        }
+
+        .main {
+            width: 75%;
+            margin-left: 20px;
+        }
+
+        .main h2 {
+            color: #333333;
+        }
+
+        .main p {
+            color: #666666;
+            line-height: 1.5;
+        }
+    </style>
+     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
 </style>
 </head>
 <body>
 
 <div class="container">
+  <div class="navbar">
+            <a href="#"><img src="logo.png" alt="Sangam Nursing" class="logo"></a>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+
   <h1>Services</h1>
   <p>
    Sangam Nursing is a website dedicated to providing tutorials and resources for aspiring and practicing nurses. 
